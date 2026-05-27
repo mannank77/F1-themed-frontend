@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Formula 1 - The Official Home of F1 Racing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-inner">
+        <div class="nav-left">
+          <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+          <a href="#" class="nav-logo">
+            <span class="logo-f1">F1</span>
+            <span class="logo-text">FORMULA 1</span>
+          </a>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#latest" class="nav-link active">Latest</a></li>
+          <li><a href="#schedule" class="nav-link">Schedule</a></li>
+          <li><a href="#standings" class="nav-link">Standings</a></li>
+          <li><a href="#teams" class="nav-link">Teams</a></li>
+          <li><a href="#" class="nav-link">Video</a></li>
+        </ul>
+        <div class="nav-right">
+          <button class="btn-subscribe">Subscribe</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#latest">Latest</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#standings">Standings</a></li>
+        <li><a href="#teams">Teams</a></li>
+        <li><a href="#">Video</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img src="https://images.autox.com/uploads/2026/01/Isack-Hadjar-in-his-Red-Bull-RB22-1769581647079.webp" alt="Formula 1 Race" class="hero-img" />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-tag">Race Report</div>
+        <h1 class="hero-title">2025 Season Kicks Off with a Stunning Victory in Bahrain</h1>
+        <p class="hero-desc">An extraordinary race as the championship battle begins under the Sakhir floodlights.</p>
+        <a href="#" class="btn-primary">Read More</a>
+      </div>
+      <div class="hero-ticker">
+        <span class="ticker-label">LIVE</span>
+        <div class="ticker-scroll">
+          <div class="ticker-track" id="ticker-track">
+            <span>P1 &nbsp;VER &nbsp;+0.000s</span>
+            <span>P2 &nbsp;NOR &nbsp;+2.441s</span>
+            <span>P3 &nbsp;LEC &nbsp;+4.893s</span>
+            <span>P4 &nbsp;HAM &nbsp;+7.210s</span>
+            <span>P5 &nbsp;RUS &nbsp;+9.557s</span>
+            <span>P6 &nbsp;SAI &nbsp;+12.001s</span>
+            <span>P7 &nbsp;ALO &nbsp;+15.334s</span>
+            <span>P8 &nbsp;PIA &nbsp;+18.779s</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="section" id="latest">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Latest News</h2>
+          <a href="#" class="section-link">View all &rsaquo;</a>
+        </div>
+        <div class="news-grid">
+          <article class="news-card news-card">
+            <div class="news-card__img-wrap">
+              <img src="https://www.motorsportweek.com/wp-content/uploads/2026/05/Max-Verstappen-Miami-GP-1024x576.webp" alt="Race" />
+              <span class="news-card__tag">Race Report</span>
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__meta">Bahrain Grand Prix &middot; 2 hours ago</p>
+              <h3 class="news-card__title">Verstappen dominates from pole to take opening race win of the season</h3>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-card__img-wrap">
+              <img src="https://www.motorsportweek.com/wp-content/uploads/2025/07/Lando-Norris-pole-Belgium-1024x576.webp" alt="News" />
+              <span class="news-card__tag">Qualifying</span>
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__meta">Bahrain Grand Prix &middot; Yesterday</p>
+              <h3 class="news-card__title">Norris snatches last-gasp pole in dramatic qualifying session</h3>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-card__img-wrap">
+              <img src="https://storage.googleapis.com/the-race-com.appspot.com/1/2023/01/TR-comparison-under-floor-2023-2022-1024x706.jpg" alt="News" />
+              <span class="news-card__tag">Analysis</span>
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__meta">Technical &middot; 3 days ago</p>
+              <h3 class="news-card__title">What the new floor regulations mean for the 2025 title fight</h3>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-card__img-wrap">
+              <img src="https://www.autohebdo.fr/app/uploads/2025/04/hamilton-ferrari-753x494.jpg" alt="News" />
+              <span class="news-card__tag">Interview</span>
+            </div>
+            <div class="news-card__body">
+              <p class="news-card__meta">Driver News &middot; 4 days ago</p>
+              <h3 class="news-card__title">Hamilton on his new Ferrari chapter: "I feel like I belong here"</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Race Banner -->
+    <div class="next-race-banner">
+      <div class="container next-race-inner">
+        <div class="next-race-label">Next Race</div>
+        <div class="next-race-info">
+          <span class="next-race-round">Round 2</span>
+          <span class="next-race-name">Saudi Arabian Grand Prix</span>
+        </div>
+        <div class="next-race-countdown" id="countdown">
+          <div class="countdown-item"><span id="cd-days">00</span><small>Days</small></div>
+          <div class="countdown-item"><span id="cd-hours">00</span><small>Hours</small></div>
+          <div class="countdown-item"><span id="cd-mins">00</span><small>Mins</small></div>
+          <div class="countdown-item"><span id="cd-secs">00</span><small>Secs</small></div>
+        </div>
+        <a href="#" class="btn-primary btn-sm">Circuit Info</a>
+      </div>
+    </div>
+
+    <!-- Schedule -->
+    <section class="section section--dark" id="schedule">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">2025 Race Calendar</h2>
+          <a href="#" class="section-link">Full schedule &rsaquo;</a>
+        </div>
+        <div class="schedule-list" id="schedule-list"></div>
+      </div>
+    </section>
+
+    <!-- Standings -->
+    <section class="section" id="standings">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Championship Standings</h2>
+        </div>
+        <div class="standings-tabs">
+          <button class="tab-btn active" data-tab="drivers">Drivers</button>
+          <button class="tab-btn" data-tab="constructors">Constructors</button>
+        </div>
+        <div class="tab-panel active" id="tab-drivers">
+          <table class="standings-table">
+            <thead>
+              <tr>
+                <th>Pos</th>
+                <th>Driver</th>
+                <th>Team</th>
+                <th class="pts-col">Pts</th>
+              </tr>
+            </thead>
+            <tbody id="driver-standings"></tbody>
+          </table>
+        </div>
+        <div class="tab-panel" id="tab-constructors">
+          <table class="standings-table">
+            <thead>
+              <tr>
+                <th>Pos</th>
+                <th>Team</th>
+                <th class="pts-col">Pts</th>
+              </tr>
+            </thead>
+            <tbody id="constructor-standings"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teams -->
+    <section class="section section--dark" id="teams">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Teams</h2>
+        </div>
+        <div class="teams-grid" id="teams-grid"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <span class="footer-logo">F1</span>
+            <p>The official home of Formula 1 racing. Live race results, standings, news and highlights.</p>
+          </div>
+          <div class="footer-links-group">
+            <h4>Racing</h4>
+            <ul>
+              <li><a href="#">Schedule</a></li>
+              <li><a href="#">Results</a></li>
+              <li><a href="#">Standings</a></li>
+              <li><a href="#">Live Timing</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-group">
+            <h4>F1</h4>
+            <ul>
+              <li><a href="#">Drivers</a></li>
+              <li><a href="#">Teams</a></li>
+              <li><a href="#">Circuits</a></li>
+              <li><a href="#">History</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-group">
+            <h4>More</h4>
+            <ul>
+              <li><a href="#">F1 TV</a></li>
+              <li><a href="#">Tickets</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">Gaming</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Formula One World Championship Limited</p>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
